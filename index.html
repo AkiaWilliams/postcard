@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AKia Williams</title>
-<link href="stylesheet" href = "style.css"/>
+    <kjsan></kjsan>
+    <title>The Postcard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
-<form >
- Some Name: <input type="Some Name" name="fname"><br>
-  Some Email: <input type="Some Email" name="fname"><br>
-  Some Comment: <input type="Some Comment" name="lname"><br>
-  <input type="submit" value="Submit">
-</form>>
-<h1>My Postcard</h1>
-<div></div>
-<p>Look how awesome!This is a Postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!.</p>
-<div></div>
-<p>This is so cool, can't wait to start doing more stuff.</p>
-<div></div>
-<img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" alt="4geeklogo"></img>
-<div></div>
-</form>
+    <div class="main-content">
+       <header>
 
+       </header>
+        <section>
+            <form class="postcard" action="https://formspree.io/infor@breatheco.de" method="post">
+              <div class="postcard-header">
+                <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png">
+                <h1>My Postcard</h1>
+              </div>
+              <div class="postcard-body">
+                <div class="left-part"> 
+                  <p>Look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+                  <p>This is so cool, can't wait to start doing more stuff!</p> 
+                </div>
+                <div class="right-part">
+                   <input type="text" name="fullname" placeholder="Some Name"> 
+                   <input type="text" name="email" placeholder="Some Email"> 
+                   <input type="text" name="message" placeholder="Some Comment"> 
+                </div>
+              </div>
+              <div class="postcard-footer">
+                <input type="submit" value="Send My Postcard">
+              </div>
+            </form>
+       </section>
+       <footer>
 
+       </footer>
+     </div>
 </body>
 </html>
